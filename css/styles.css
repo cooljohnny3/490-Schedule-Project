@@ -23,6 +23,8 @@ form {
 }
 
 .class_item {
+  display: grid;
+  grid-template-columns: 30% 60% 10%;
   margin: 1px;
   border: 1px solid black;
   padding: 0px 10px;
@@ -39,9 +41,4 @@ form {
 .class_item:hover {
   cursor: pointer;
   background-color: yellow;
-}
-
-.right {
-  float: right;
-  text-align: right;
 }
