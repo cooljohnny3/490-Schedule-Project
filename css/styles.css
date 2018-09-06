@@ -1,44 +1,10 @@
-form {
-  margin-top: 5px;
-  margin-bottom: 10px;
+body {
+  margin: 0;
+  border-left: #D22030 solid 3px;
+  border-right: #D22030 solid 3px;
 }
 
-#calendar {
-  margin-right: 5px;
-}
-
-#classes {
-  display: grid;
-  grid-column-gap: 5%;
-  grid-template-columns: 30% 65%;
-}
-
-#class_list {
-  border: 2px solid black;
-}
-
-#list_parent {
-  list-style: none;
-  padding-left: 0;
-}
-
-.class_item {
-  display: grid;
-  grid-template-columns: 30% 60% 10%;
-  margin: 1px;
-  border: 1px solid black;
-  padding: 0px 10px;
-}
-
-.class_item p {
-  margin: 5px 0px;
-}
-
-.class_item div {
-  display: inline-block;
-}
-
-.class_item:hover {
-  cursor: pointer;
-  background-color: yellow;
+#container {
+  margin-left: 10px;
+  margin-right: 10px;
 }

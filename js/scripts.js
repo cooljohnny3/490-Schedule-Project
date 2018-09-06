@@ -1,7 +1,9 @@
 $(document).ready(function() {
   $('img[id^="delete_image"]').click(function() {
-    window.confirm("Are you sure you want to delete this class?");
-    console.log(this);
+    if(window.confirm("Are you sure you want to delete this class?")){
+      // THis is so janky but it works
+      this.parentElement.parentElement.removeChild(this.parentElement);
+    }
   });
 
   $('#calendar').fullCalendar({
