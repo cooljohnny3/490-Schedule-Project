@@ -10,21 +10,27 @@
   <script src="lib/jquery-3.3.1.min.js"></script>
   <script src="lib/moment.min.js"></script>
   <script src="lib/fullcalendar.min.js"></script>
+  <script type='text/javascript' src='lib/gcal.min.js'></script>
   <script src="js/scripts.js"></script>
   <title>Calendar</title>
 </head>
 <body>
   <div id="container">
-<nav>
+  <nav>
       <a href="index.html"><img src="img/logo.png" alt="CSUN Logo"></a>
   </nav>
 
-  <form action="classes.html" method="get">
+  <form action="courses.html" method="post">
     <select name="term" id="term_select">
       <option value="Fall 2018">Fall 2018</option>
+      <option value="Summer 2018">Summer 2018</option>
+      <option value="Spring 2018">spring 2018</option>
+      <option value="Fall 2017">Fall 2017</option>
     </select>
     <select name="deptartment" id="deptartment_select">
       <option value="COMP">COMP</option>
+      <option value="HIST">HIST</option>
+      <option value="MATH">MATH</option>
     </select>
     <button type="submit">Submit</button>
   </form>

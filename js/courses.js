@@ -11,7 +11,7 @@ $(document).ready(function() {
 		$(courses).each(function(index, course) {
 			// append each course to the content of the element
 			$('#course-results').append(
-        '<details><summary>' + course.subject + ' ' + course.catalog_number + ': ' + course.title + '</summary><p>' + course.description + '</p><a href="detailed.html">View Courses</a></details>'
+        '<details><summary>' + course.subject + ' ' + course.catalog_number + ': ' + course.title + '</summary><p>' + course.description + '</p><button onclick="window.location.href=`detailed.html`">View Sections</button></details>'
       );
 		});
 	});
